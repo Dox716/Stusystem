@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>普通用户登录</title>
+	<style type="text/css">
+		table{margin:auto;};
+	</style>
+</head>
+
+<body background="images/1.webp" style="background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+	<form name="form" method="post" action="user_check.php">
+	<table width="400" border="0">
+		<tbody>
+			<tr><td height="150"></td></tr>
+			<tr>
+				<td height="50" ><h1 align="center">欢 迎 登 录</h1></td>
+			</tr>
+			<tr>
+				<td height="50" align="center">用户名:
+					<input class="message" type="text" name="user" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td height="50" align="center">密&nbsp;&nbsp;&nbsp;码:
+					<input class="message" type="password" name="pwd" size="20"/>
+				</td>
+			</tr>
+			<tr>
+				<td height="48" align="center">
+					<input class="but" type="submit" style="margin-right: 20px;width: 80px;" name="submit" value="登录">
+					<a href="admin_login.html"><input class="but" type="button" style="margin-right: 20px;width: 80px;" name="admin" value="管理员登录"></a>
+					<a href="register.php"><input class="but" type="button" style="width: 80px;" name="register" value="用户注册"></a>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+		</form>
+</body>
+</html>

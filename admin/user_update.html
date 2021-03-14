@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>修改用户信息</title>
+	<style type="text/css">
+		table{margin:auto;text-align:center;}
+		.q{font-size: 35px;}
+	</style>
+</head>
+
+<body background="../images/3.webp" style="background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+<table width="760" border="0" >
+	<tr style="text-align: left"><td height="50" colspan="2" style="font-size: 20px">管理员系统</td></tr>
+	<tr style="text-align: right"><td><a href="user_update.php">修改其他用户</a></td></tr>
+	<tr><td height="200" colspan="2"><h1>修改用户信息</h1></td></tr>
+	<tbody>
+		<tr>
+			<td>
+		<form  method="post" action="user_update_save.php" >
+			<table width="760" border="0" >
+			<input type="hidden" name="id"  value="<?php echo $new['id'];?>"/>
+				<tbody>
+					<tr>
+						  <td width="27%">&nbsp;</td>
+						  <td width="18%">&nbsp;</td>
+						  <td width="27%">&nbsp;</td>
+						  <td width="28%">&nbsp;</td>
+            		</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>用户名：</td>
+						<td><input type="text" name="name" size="30" value="<?php echo $new['name'];?>"/></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>密码：</td>
+						<td><input type="text" name="pwd" size="30" value="<?php echo $new['pwd'];?>"/></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>邮箱：</td>
+						<td><input type="text" name="email" size="30" value="<?php echo $new['email'];?>"/></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>电话：</td>
+						<td><input type="text" name="tel" size="30" value="<?php echo $new['tel'];?>"/></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>性别：</td>
+						<td><input type="text" name="gender" size="30" value="<?php echo $new['gender'];?>"/></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td colspan="2">
+							<input type="submit" name="Submit" type="button" style="width: 60px;" value="修改">
+							<input type="reset" name="reset" type="button" style="margin-left: 40px;width: 60px;" value="重置">
+						</td>
+						<td>&nbsp;</td>
+					</tr>     
+				
+			</tbody>
+	</table>
+	</form>
+		</td>
+	</tr>
+	</tbody>
+	</table>
+	</body>
+</html>
