@@ -1,4 +1,4 @@
-# Stu-mgmt-sys
+# Stusystem
 PHP和HTML完成的学生管理系统
 
 HTML+CSS、PHP系统开发PHP常见函数的运用、PHP数组的知识、PHP参数的传递、文件的操作、MYSQL的基本操作、PHP对MYSQL数据库的访问、PHP实现对数据的增删查改、数据的分页功能
